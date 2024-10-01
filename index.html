@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Perdiodica</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <table class="tabla">
+            <tr>
+                <td class="celda hidrogeno" id="hidrogeno">
+                    <span class="H">1   H</span>
+                    <div class="identificacion">
+                        <p>Hidrógeno</p>
+                        <p>1,00797</p>
+                    </div>
+                    <div class="detalle">
+                        <div><p>2,1</p>
+                        <p>+ 1</p>
+                        <p>1</p> 
+                        <p>0.071</p>
+                        <p>1 s¹</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Hexagonal.png.png" class="img">
+                        </div>
+                    </div>
+
+                </td> <!--id="f1c1 ... f1c19"-->
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda litio" id="litio">
+                    <span class="L">3   Li</span>
+                    <div class="identificacion">
+                        <p>Litio</p>
+                        <p>6,939</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,0</p>
+                        <p>1</p>
+                        <p>2-1</p> 
+                        <p>0,53</p>
+                        <p>[He]2s¹</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td> <!--id="f2c1 ... f2c19"-->
+                <td class="celda berilio" id="berilio">
+                    <span class="L">4 Be</span>
+                    <div class="identificacion">
+                        <p>Berilio</p>
+                        <p>9,0122</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,5</p>
+                        <p>2</p>
+                        <p>2-2</p> 
+                        <p>1,85</p>
+                        <p>[He]2s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Hexagonal.png.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda litio" id="sodio">
+                    <span class="L">11 Na</span>
+                    <div class="identificacion">
+                        <p>Sodio</p>
+                        <p>22,9898</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>0,9</p>
+                        <p>1</p>
+                        <p>2-8-1</p> 
+                        <p>0,97</p>
+                        <p>[Ne]3s¹</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td> <!--id="f3c1 ... f3c19"-->
+                <td class="celda berilio" id="magnesio">
+                    <span class="L">12 Mg</span>
+                    <div class="identificacion">
+                        <p>Magnesio</p>
+                        <p>24,312</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,2</p>
+                        <p>2</p>
+                        <p>2-8-2</p> 
+                        <p>1,74</p>
+                        <p>[Ne]3s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Hexagonal.png.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda litio" id="potasio">
+                    <span class="L">19 K</span>
+                    <div class="identificacion">
+                        <p>Potasio</p>
+                        <p>39,102</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>0,8</p>
+                        <p>1</p>
+                        <p>8-1</p> 
+                        <p>0,86</p>
+                        <p>[Ar]4s¹</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td> <!--id="f4c1 ... f4c19"-->
+                <td class="celda berilio" id="calcio">
+                    <span class="L">20 CA</span>
+                    <div class="identificacion">
+                        <p>Calcio</p>
+                        <p>40,08</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,0</p>
+                        <p>2</p>
+                        <p>8-2</p> 
+                        <p>1,55</p>
+                        <p>[Ar]4s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Cara centrada.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda escandio" id="escandio">
+                    <span class="L">21 Sc</span>
+                    <div class="identificacion">
+                        <p>Escandio</p>
+                        <p>44,956</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,3</p>
+                        <p>9-2</p>
+                        <p>3,0</p> 
+                        <p>4,47</p>
+                        <p>[Ar]3d² 4s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda escandio" id="titanio">
+                    <span class="L">22 Ti</span>
+                    <div class="identificacion">
+                        <p>Titanio</p>
+                        <p>47,90</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,5</p>
+                        <p>4,3</p>
+                        <p>10-2</p> 
+                        <p>4,51</p>
+                        <p>[Ar] 3d¹ 4s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Hexagonal.png.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda litio" id="rubidio">
+                    <span class="L">37 Rb</span>
+                    <div class="identificacion">
+                        <p>Rubidio</p>
+                        <p>85,47</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>0,8</p>
+                        <p>1</p>
+                        <p>8-1</p> 
+                        <p>1,53</p>
+                        <p>[Kr]5s¹</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td> <!--id="f5c1 ... f5c19"-->
+                <td class="celda berilio" id="estronicio">
+                    <span class="L">38 Sr</span>
+                    <div class="identificacion">
+                        <p>Estronicio</p>
+                        <p>87,62</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,0</p>
+                        <p>2</p>
+                        <p>8-2</p> 
+                        <p>2,6</p>
+                        <p>[Kr]5s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Cara centrada.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda escandio" id="itrio">
+                    <span class="L">39 Y</span>
+                    <div class="identificacion">
+                        <p>Itrio</p>
+                        <p>88,905</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,3</p>
+                        <p>3</p>
+                        <p>9-2</p> 
+                        <p>4,47</p>
+                        <p>[Kr] 4d¹ 5s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda escandio" id="circonio">
+                    <span class="L">40 Zr</span>
+                    <div class="identificacion">
+                        <p>Circonio</p>
+                        <p>91,22</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,4</p>
+                        <p>3</p>
+                        <p>10-2</p> 
+                        <p>6,49</p>
+                        <p>[Kr] 4d² 5s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Hexagonal.png.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda litio" id="cesio">
+                    <span class="L">55 <span style="color:blue">Cs</span></span>
+                    <div class="identificacion">
+                        <p>Cesio</p>
+                        <p>132,905</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>0,7</p>
+                        <p>1</p>
+                        <p>18-8-1</p> 
+                        <p>1,90</p>
+                        <p>[Xe]6s¹</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td> <!--id="f6c1 ... f6c19"-->
+                <td class="celda berilio" id="bario">
+                    <span class="L">56 Ba</span>
+                    <div class="identificacion">
+                        <p>Bario</p>
+                        <p>137,34</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>9,0</p>
+                        <p>2</p>
+                        <p>18-8-2</p> 
+                        <p>3,5</p>
+                        <p>[Xe]6s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda violeta" id="lantanidos">
+                    <span class="L">57/71</span>
+                    <div class="identificacion">
+                        <p>Serie De Lantánidos</p>
+                        <p></p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p></p>
+                        <p></p>
+                        <p></p> 
+                        <p></p>
+                        <p></p>
+                    </div>
+                        <div>
+                            
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda escandio" id="hafnio">
+                    <span class="L">72 Hf</span>
+                    <div class="identificacion">
+                        <p>Hafnio</p>
+                        <p>178,49</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>1,3</p>
+                        <p>3</p>
+                        <p>32-10-2</p> 
+                        <p>13,1</p>
+                        <p>[Xe]4f¹ 5d² 6s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda litio" id="francio">
+                    <span class="L">87 Fr</span></span>
+                    <div class="identificacion">
+                        <p>Francio</p>
+                        <p>(223)</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>0,7</p>
+                        <p>1</p>
+                        <p>18-8-1</p> 
+                        <p>..</p>
+                        <p>[Rn]7s¹</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td> <!--id="f7c1 ... f7c19"-->
+                <td class="celda berilio" id="radio">
+                    <span class="L">88 Ra</span>
+                    <div class="identificacion">
+                        <p>Radio</p>
+                        <p>(226)</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>9,0</p>
+                        <p>2</p>
+                        <p>18-8-2</p> 
+                        <p>5,0</p>
+                        <p>[Rn]7s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/cubica.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda rosa " id="actinidos">
+                    <span class="L">89/103</span>
+                    <div class="identificacion">
+                        <p>Serie de actínidos</p>
+                        <p></p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p></p>
+                        <p></p>
+                        <p></p> 
+                        <p></p>
+                        <p></p>
+                    </div>
+                        <div>
+                            
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda escandio" id="rutherfordio">
+                    <span class="L">104 Rf</span>
+                    <div class="identificacion">
+                        <p>Rutherfordio</p>
+                        <p>(261)</p>
+                    </div>
+                    <div class="detalle">
+                        <div>
+                        <p>32-10-2</p>
+                        <p>---</p>
+                        <p></p> 
+                        <p></p>
+                        <p>[Xe] 5f¹ 6d² 7s²</p>
+                    </div>
+                        <div>
+                            <img src="./Imagenes/Hexagonal.png.png" class="img">
+                        </div>
+                    </div>
+
+                </td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda"></td> <!--id="f8c1 ... f8c19"-->
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda"></td> <!--id="f9c1 ... f9c19"-->
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda"></td> <!--id="f10c1 ... f10c19"-->
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda"></td> <!--id="f11c1 ... f11c19"-->
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+            <tr>
+                <td class="celda"></td> <!--id="f12c1 ... f12c19"-->
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+                <td class="celda"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

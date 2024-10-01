@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+.contenedor .tabla {
+    border: 2px solid red;
+}
+.celda{
+    border: 2px solid green;
+    width: 69.2px;
+    height: 50.7px;
+    transition: 0.2s;
+}
+.celda:hover{
+    transform: scale(1.03, 1.03);
+    cursor: pointer;
+    margin-left: 25px;
+}
+.hidrogeno {
+    background-color: grey;
+}
+.litio{
+    background-color: rgb(63, 119, 122);
+}
+.H{
+    font-weight: bold;
+    color:green;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+.identificacion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.detalle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.L{
+    color: black;
+    font-weight: bold;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
+}
+.berilio{
+    background-color: rgb(248, 243, 169);
+}
+.escandio{
+    background-color: rgba(163, 236, 89, 0.966);
+}
+.violeta{
+    background-color: rgb(134, 135, 230);
+}
+.rosa{
+    background-color: rgb(206, 172, 238);
+}
