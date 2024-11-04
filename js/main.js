@@ -188,7 +188,7 @@ circonio.addEventListener ('click', function(){
   Swal.fire({
       title: "40 Circonio",
       text: "1,3 3 9-2 3,0 [Kr] 4d¹ 5s²",
-      imageUrl: "./Imagenes/hexagonal.png.png",
+      imageUrl: "./Imagenes/Hexagonal.png.png",
       imageHeight: 200,
       icon: "info"
     });
@@ -274,7 +274,7 @@ cobalto.addEventListener ('click', function(){
   Swal.fire({
       title: "27 Cobalto",
       text: "9,9-2-3-2-8-15-2 [Ar] 3d⁷ 4s²",
-      imageUrl: "./Imagenes/hexagonal.png.png",
+      imageUrl: "./Imagenes/Hexagonal.png.png",
       imageHeight: 200,
       icon: "info"
     });
@@ -301,7 +301,7 @@ tecnecio.addEventListener ('click', function(){
   Swal.fire({
       title: "43 Tecnecio",
       text: "11,5-7-4-2-8-18-14-1 [Kr] 4d⁶ 5s¹",
-      imageUrl: "./Imagenes/hexagonal.png.png",
+      imageUrl: "./Imagenes/Hexagonal.png.png",
       imageHeight: 200,
       icon: "info"
     });
@@ -310,7 +310,7 @@ rutenio.addEventListener ('click', function(){
   Swal.fire({
       title: "44 Rutenio",
       text: "12,2-2-3-4-6-8-2-8-18-15-1 [Kr] 4d⁷ 5s¹",
-      imageUrl: "./Imagenes/hexagonal.png.png",
+      imageUrl: "./Imagenes/Hexagonal.png.png",
       imageHeight: 200,
       icon: "info"
     });
@@ -337,7 +337,7 @@ renio.addEventListener ('click', function(){
   Swal.fire({
       title: "75 Renio",
       text: "21,0-7-6-4-2-(-1) 2-8-18-32-13-2 [Xe] 4f¹⁴ 5d⁵ 6s²",
-      imageUrl: "./Imagenes/hexagonal.png.png",
+      imageUrl: "./Imagenes/Hexagonal.png.png",
       imageHeight: 200,
       icon: "info"
     });
@@ -346,7 +346,7 @@ osmio.addEventListener ('click', function(){
   Swal.fire({
       title: "76 Osmio",
       text: "22,6-2-3-4-6-8 2-8-18-32-14-2 [Xe] 4f¹⁴ 5d⁶ 6s²",
-      imageUrl: "./Imagenes/hexagonal.png.png",
+      imageUrl: "./Imagenes/Hexagonal.png.png",
       imageHeight: 200,
       icon: "info"
     });
