@@ -73,3 +73,21 @@
 .rosa{
     background-color: rgb(206, 172, 238);
 }
+.celda-helio{
+    background-color: rgb(255, 220, 24);
+}
+.celda-boro{
+    background-color: coral;
+}
+.celda-carbono{
+    background-color: rgb(209, 135, 153);
+}
+.celda-aluminio{
+    background-color: rgb(240, 189, 145);
+}
+.celda-cerio{
+background-color: rgb(111, 215, 250);
+}
+.celda-torio{
+    background-color: rgb(36, 181, 230);
+}
